@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    background-color: #a446ac;
+}
+
+@font-face {
+    font-family:"Facu DEV"; 
+    src: url(./../Fonts/RosmatikaRegular-BWA45.ttf);
+}
+
+h1{
+    font-family: "Facu DEV", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#contenedorimgyh1 {
+    display: flex;
+    background-color: blueviolet;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#contenedorimg {
+    width: 100px;
+    height: 100px;
+}
+
+.titulos {
+    font-size: 40px;
+    color: #d4a0d8;
+}
+
+#header {
+    background-color: #a446ac ;
+}
+
+nav {
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav a {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+main {
+    text-align: center;
+}
+
+main div {
+    position: relative;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+
+#vers1 {
+    position: absolute;
+    top: 70%;
+    left:15%;
+    color: #d4a0d8;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#vers2 {
+    position: absolute;
+    top: 75%;
+    left:40%;
+    color: #d4a0d8;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#welcome {
+    font-size: 18px;
+    margin-top: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2 {
+    font-size: 25px;
+    color: beige;
+}
+
+.colorD {
+    color: rgb(236, 240, 21);
+    font-style: italic;
+}
+
+article {
+    background-color: white;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #80178a;
+}
+
+article div {
+    display:flex;
+    justify-content: space-between;
+}
+
+article div a {
+    padding-top: 20%;
+}
+
+article div iframe {
+    border-radius: 15px;
+}
+
+footer h2 {
+    width: 30%;
+    height: 30%;
+    margin-left: 38%;
+    margin-right: 35%;
+    color:yellow ;
+    font-family: "Facuu DEV", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px  ;
+}
+
+footer div p img{
+    width: 50px;
+    height: 50px;
+}
+
+#donde {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#dondeIgle {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#mapa {
+    width: 95%;
+    height: 600px;
+    padding-left: 2.5%;
+    border-radius: 5%;
+}
+
+.colorAma {
+    color: green;
+}
+
+.QH {
+    text-align: center;
+    font-size: 40px;
+}
+
+#ACT{
+    width: 100%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    border-color: yellow;
+    border-style: solid;
+    background-color:#d4a0d8;
+}
+
+.noticiasEsp {
+    color: green;
+}
+
+#eventos {
+   text-align: center;
+}
+
+#prepare {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#calendar {
+    height: 200px;
+    width: 200px;
+    padding-left: 40%;
+    padding-right: 45%;
+}
+
+
+
