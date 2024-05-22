@@ -212,4 +212,25 @@ footer div p img{
 }
 
 
+#gridDH {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+      "donde mapa"
+      "dondeIgle mapa";
+    grid-template-rows: 20% 80%; 
+    grid-template-columns: 35% auto;
+}
 
+#donde {
+    grid-area: donde;
+}
+
+#dondeIgle {
+    grid-area: dondeIgle;
+}
+
+#mapa {
+    grid-area: mapa;
+    width: 97%;
+}
