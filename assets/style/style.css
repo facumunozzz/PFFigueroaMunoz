@@ -212,6 +212,7 @@ footer div p img{
 }
 
 
+/*SISTEMA DE GRILLAS*/
 #gridDH {
     display: grid;
     height: 100vh;
@@ -234,3 +235,6 @@ footer div p img{
     grid-area: mapa;
     width: 97%;
 }
+
+
+
