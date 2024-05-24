@@ -74,8 +74,8 @@ main img {
 
 #vers1 {
     position: absolute;
-    top: 70%;
-    left:15%;
+    top: 50%;
+    left:3%;
     color: #d4a0d8;
     font-weight: bold;
     font-size: 40px;
@@ -84,7 +84,7 @@ main img {
 #vers2 {
     position: absolute;
     top: 75%;
-    left:40%;
+    left:35%;
     color: #d4a0d8;
     font-weight: bold;
     font-size: 40px;
@@ -109,11 +109,12 @@ main h2 {
 }
 
 article {
-    background-color: white;
+    background-color:#a446ac;
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
-    color: #80178a;
+    color:white;
+    text-align: center;
 }
 
 article div {
@@ -121,9 +122,6 @@ article div {
     justify-content: space-between;
 }
 
-article div a {
-    padding-top: 20%;
-}
 
 article div iframe {
     border-radius: 15px;
@@ -212,7 +210,7 @@ footer div p img{
 }
 
 
-/*SISTEMA DE GRILLAS*/
+/*SISTEMA DE GRILLAS DONDE */
 #gridDH {
     display: grid;
     height: 100vh;
@@ -236,5 +234,39 @@ footer div p img{
     width: 97%;
 }
 
+/*grilla de html*/
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "main article"
+    "footer footer"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 70% 10%;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+article {
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}
 
 
+@media (max-width: 480px){
+}
