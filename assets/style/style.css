@@ -123,5 +123,30 @@ footer div p img {
 }
 
 
+#gridContacto {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "footer article"
+    ;
+    grid-template-columns: 15% 85%;
+}
 
+header {
+    grid-area: header;
+}
 
+nav {
+    grid-area: nav;
+}
+
+footer {
+    grid-area: footer;
+    background-color: white;
+    padding-top: 40%;
+}
+
+article {
+    grid-area: article;
+}
