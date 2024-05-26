@@ -117,7 +117,7 @@ footer h2 {
     margin-right: 20px;
 }
 
-footer div p img {
+footer div div img {
     width: 50px;
     height: 50px;
 }
@@ -139,6 +139,12 @@ article {
     grid-area: article;
 }
 
+#calendar {
+    width: 150px;
+    height: 150px;
+}
+
+
 #gridContacto {
     display: grid;
     grid-template-areas: 
@@ -146,18 +152,7 @@ article {
     "nav nav"
     "footer article"
     ;
-    grid-template-columns: 15% 85%;
-}
-
-
-#gridActividades {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "article article"
-    "footer footer"
-    ;
+    grid-template-columns: 20% 80%;
 }
 
 
@@ -168,7 +163,6 @@ article {
     "nav nav"
     "footer article"
     ;
-
     grid-template-columns: 20% 80%;
 }
 
@@ -178,9 +172,9 @@ article {
     "h1 iframe"
     "p iframe"
     ;
-
     grid-template-columns: 30% 70%;
     grid-template-rows: 20% 80%;
+
 }
 
 h1 {
@@ -193,4 +187,48 @@ iframe {
 
 p {
     grid-area: p;
+}
+
+
+@media (max-width:768px) {
+    .titulos { 
+        font-size: 40px;
+    }
+    #vers1 {
+        display: none;
+    }
+    #vers2 {
+        display: none;
+    }
+    article div iframe {
+        display: none;
+    }
+    footer h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .contenedorfoot {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    #donde {
+        display: none;
+    }
+
+    #dondeIgle {
+        font-size: 19px;
+        margin-right: 10%;
+        text-align:justify;
+    }
+
+    #mapa {
+        display:flex;
+        width: 300px;
+        height: 400px;
+    }
+    
 }
