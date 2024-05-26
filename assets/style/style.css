@@ -105,7 +105,7 @@ footer h2 {
     height: 30%;
     margin-left: 38%;
     margin-right: 35%;
-    color: yellow;
+    color:#a446ac;
     font-family: "Facu DEV", Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -122,17 +122,6 @@ footer div p img {
     height: 50px;
 }
 
-
-#gridContacto {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "footer article"
-    ;
-    grid-template-columns: 15% 85%;
-}
-
 header {
     grid-area: header;
 }
@@ -144,9 +133,64 @@ nav {
 footer {
     grid-area: footer;
     background-color: white;
-    padding-top: 40%;
 }
 
 article {
     grid-area: article;
+}
+
+#gridContacto {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "footer article"
+    ;
+    grid-template-columns: 15% 85%;
+}
+
+
+#gridActividades {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "article article"
+    "footer footer"
+    ;
+}
+
+
+#gridDE {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "footer article"
+    ;
+
+    grid-template-columns: 20% 80%;
+}
+
+#gridDE2 {
+    display: grid;
+    grid-template-areas: 
+    "h1 iframe"
+    "p iframe"
+    ;
+
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+}
+
+h1 {
+    grid-area: h1;
+}
+
+iframe {
+    grid-area: iframe;
+}
+
+p {
+    grid-area: p;
 }
