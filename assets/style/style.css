@@ -1,12 +1,17 @@
 body {
     margin: 0;
-    background-color: #a446ac;
+    background-color: white;
     font-family: 'Facu DEV', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #contenedorimgyh1 {
     display: flex;
-    background-color: blueviolet;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #a446ac;
 }
 
 #logo {
@@ -73,26 +78,26 @@ main img {
 #welcome {
     font-size: 18px;
     margin-top: 0px;
-    color: white;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#a446ac;
 }
 
 main h2 {
     font-size: 25px;
-    color: beige;
+    color:beige;
 }
 
 .colorD {
-    color: rgb(236, 240, 21);
+    color:rgb(30, 255, 0);
     font-style: italic;
 }
 
 article {
-    background-color: #a446ac;
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
-    color: white;
+    color:#a446ac;
     text-align: center;
 }
 
@@ -100,11 +105,17 @@ article div iframe {
     border-radius: 15px;
 }
 
+article div a {
+    text-decoration: none;
+    color: #a446ac;
+}
+
 footer h2 {
     width: 30%;
     height: 30%;
     margin-left: 38%;
     margin-right: 35%;
+    margin-top: 40px;
     color:#a446ac;
     font-family: "Facu DEV", Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -113,13 +124,23 @@ footer h2 {
 .contenedorfoot {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#youtubefoto {
+    width: 70px;
 }
 
 footer div div img {
     width: 50px;
     height: 50px;
+}
+
+footer div a {
+    text-decoration: none;
+    color:#a446ac;
+    display: flex;
 }
 
 header {
