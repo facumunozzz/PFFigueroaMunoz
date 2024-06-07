@@ -1,0 +1,14 @@
+nav {
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }

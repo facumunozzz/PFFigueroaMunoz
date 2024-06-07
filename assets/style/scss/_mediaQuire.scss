@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .titulos {
+      font-size: 40px;
+    }
+  
+    #vers1, #vers2, article div iframe {
+      display: none;
+    }
+  
+    footer h2 {
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .contenedorfoot {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+  
+    #donde {
+      display: none;
+    }
+  
+    #dondeIgle {
+      font-size: 19px;
+      margin-right: 10%;
+      text-align: justify;
+    }
+  
+    #mapa {
+      display: flex;
+      width: 300px;
+      height: 400px;
+    }
+  }

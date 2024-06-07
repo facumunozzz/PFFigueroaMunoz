@@ -1,46 +1,14 @@
+@import "dondeEstamos";
+@import "noticias";
+@import "header";
+@import "mediaQuire";
+@import "nav";
+@import "footer";
+
 body {
     margin: 0;
     background-color: white;
     font-family: 'Facu DEV', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  #contenedorimgyh1 {
-    display: flex;
-    background-color: whitesmoke;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: #a446ac;
-  }
-  
-  #logo {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .titulos {
-    font-size: 70px;
-    color: #d4a0d8;
-  }
-  
-  #header {
-    background-color: #a446ac;
-  }
-  
-  nav {
-    font-size: 25px;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-  
-    a {
-      color: white;
-      text-decoration: none;
-    }
   }
   
   main {
@@ -112,41 +80,6 @@ body {
     }
   }
   
-  footer h2 {
-    width: 30%;
-    height: 30%;
-    margin-left: 38%;
-    margin-right: 35%;
-    margin-top: 40px;
-    color: #a446ac;
-    font-family: "Facu DEV", Arial, Helvetica, sans-serif;
-    font-size: 30px;
-  }
-  
-  .contenedorfoot {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-  
-  #youtubefoto {
-    width: 70px;
-  }
-  
-  footer div {
-    div img {
-      width: 50px;
-      height: 50px;
-    }
-  
-    a {
-      text-decoration: none;
-      color: #a446ac;
-      display: flex;
-    }
-  }
-  
   header {
     grid-area: header;
   }
@@ -157,29 +90,11 @@ body {
   
   footer {
     grid-area: footer;
-    background-color: white;
+    background-color: whitesmoke;
   }
   
   article {
     grid-area: article;
-  }
-  
-  #calendar {
-    width: 150px;
-    height: 150px;
-  }
-  
-  #gridContacto, #gridDE {
-    display: grid;
-    grid-template-areas: "header header" "nav nav" "footer article";
-    grid-template-columns: 20% 80%;
-  }
-  
-  #gridDE2 {
-    display: grid;
-    grid-template-areas: "h1 iframe" "p iframe";
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 20% 80%;
   }
   
   h1 {
@@ -194,41 +109,5 @@ body {
     grid-area: p;
   }
   
-  @media (max-width: 768px) {
-    .titulos {
-      font-size: 40px;
-    }
-  
-    #vers1, #vers2, article div iframe {
-      display: none;
-    }
-  
-    footer h2 {
-      text-align: center;
-      font-size: 20px;
-    }
-  
-    .contenedorfoot {
-      display: flex;
-      justify-content: space-between;
-      margin-left: 40px;
-      margin-right: 20px;
-    }
-  
-    #donde {
-      display: none;
-    }
-  
-    #dondeIgle {
-      font-size: 19px;
-      margin-right: 10%;
-      text-align: justify;
-    }
-  
-    #mapa {
-      display: flex;
-      width: 300px;
-      height: 400px;
-    }
-  }
+ 
   

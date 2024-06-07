@@ -1,0 +1,25 @@
+{
+  "name": "preentrega3",
+  "version": "1.0.0",
+  "description": "pre entrega 3 de curso desarrollo web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facumunozzz/PreEntrega3FigueroaMuoz.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html",
+    "preentrega3"
+  ],
+  "author": "Facundo Figueroa Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facumunozzz/PreEntrega3FigueroaMuoz/issues"
+  },
+  "homepage": "https://github.com/facumunozzz/PreEntrega3FigueroaMuoz#readme"
+}

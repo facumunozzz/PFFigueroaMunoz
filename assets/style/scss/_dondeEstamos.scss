@@ -1,0 +1,13 @@
+
+#gridContacto, #gridDE {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "footer article";
+    grid-template-columns: 20% 80%;
+  }
+  
+  #gridDE2 {
+    display: grid;
+    grid-template-areas: "h1 iframe" "p iframe";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+  }
