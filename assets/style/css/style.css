@@ -44,7 +44,7 @@
   .titulos {
     font-size: 40px;
   }
-  #vers1, #vers2, article div iframe {
+  #vers1, #vers2 {
     display: none;
   }
   footer h2 {
@@ -54,8 +54,9 @@
   .contenedorfoot {
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 20px;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   #donde {
     display: none;
@@ -69,6 +70,9 @@
     display: flex;
     width: 300px;
     height: 400px;
+  }
+  article div iframe {
+    width: 250px;
   }
 }
 nav {
@@ -213,6 +217,16 @@ iframe {
 
 p {
   grid-area: p;
+}
+
+.elemento {
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+  transition: transform 0.3s ease;
+}
+.elemento:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
