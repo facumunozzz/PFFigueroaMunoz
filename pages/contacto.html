@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <div id="gridContacto">
         <header id="header">
             <div id="contenedorimgyh1">
                 <div id="contenedorimg">
@@ -55,63 +54,63 @@
                 </div>
             </div>
         </nav>
-        <article>
+        <article id="fondocontacto">
             <section>
                 <h1>PONTE EN CONTACTO CON NOSOTROS!</h1>
 
-                <P>Para ponerte en contacto con nosotros sobre cualquier duda, llena el siguiente formulario y uno de
+                <p id="mediaqcon">Para ponerte en contacto con nosotros sobre cualquier duda, llena el siguiente formulario y uno de
                     nuestros coordinadores se pondrán en contacto contigo</p>
 
-                <fieldset>
-                    <legend>DATOS PERSONALES</legend>
-
                     <form>
-                        <div>
-                            <label for="Nombre">Nombre</label>
-                            <input type="text" id="Nombre" name="fieldName" placeholder="Ingresa tu nombre" required>
-                        </div>
+                        <fieldset>
+                            <legend>DATOS PERSONALES</legend>
+                            <div class="formgrid">
+                                <div class="div1">
+                                    <label for="Nombre">Nombre</label>
+                                    <input type="text" id="Nombre" name="fieldName" placeholder="Ingresa tu nombre" required>
+                                </div>
+                    
+                                <div class="div2">
+                                    <label for="Apellido">Apellido</label>
+                                    <input type="text" id="Apellido" name="fieldSurname" placeholder="Ingresa tu apellido" required>
+                                </div>
+                    
+                                <div class="div3">
+                                    <label for="Numero">Numero</label>
+                                    <input type="number" id="Numero" name="fieldNumber" placeholder="Ingresa tu numero de teléfono"
+                                        required>
+                                </div>
+                    
+                                <div class="div4">
+                                    <label for="Email">Email</label>
+                                    <input type="email" id="Email" name="fieldEmail" placeholder="example@domain.com" required>
+                                </div>
+                            </div>
+                    
+                            <div>
+                                <input type="submit" value="ENVIAR">
+                            </div>
+                        </fieldset>
+                    </form>
 
-                        <div>
-                            <label for="Apellido">Apellido</label>
-                            <input type="text" id="Apellido" name="fieldSurname" placeholder="Ingresa tu apellido"
-                                required>
-                        </div>
-
-                        <div>
-                            <label for="Numero">Numero</label>
-                            <input type="number" id="Numero" name="fieldNumber"
-                                placeholder="Ingresa tu numero de teléfono" required>
-                        </div>
-
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="Email" name="fieldEmail" placeholder="example@domain.com" required>
-                        </div>
-
-                        <div>
-                            <input type="submit" value="ENVIAR">
-                        </div>
-
-                </fieldset>
-
-                </form>
 
 
             </section>
         </article>
 
         <footer>
-
-            <div class="container">
-                <div><img src="./../assets/Multimedia/facebook.png" alt="facebook"><a
-                        href="https://www.facebook.com/jovenes.ibin">Jovenes IBIN</a></div>
-                <div><img src="./../assets/Multimedia/instagram.png" alt="instagram"><a
-                        href="https://www.instagram.com/iglesia_ibin/">@iglesia_ibin</a></div>
-                <div><img src="./../assets/Multimedia/youtube.png" alt="youtube"><a
-                        href="https://www.youtube.com/@IBINarg">Iglesia Bautista Ituzaingó Norte</a></div>
+            <h2>¿Dónde nos encontrás?</h2>
+            
+            <div class="contenedorfoot">
+              <div><img src="./../assets/Multimedia/facebook.png" alt="facebook"><a
+                  href="https://www.facebook.com/jovenes.ibin">Jovenes IBIN</a></div>
+              <div><img src="./../assets/Multimedia/instagram.png" alt="instagram"><a
+                  href="https://www.instagram.com/iglesia_ibin/">@iglesia_ibin</a></div>
+              <div><img src="./../assets/Multimedia/youtube.png" alt="youtube"><a href="https://www.youtube.com/@IBINarg">Iglesia
+                  Bautista Ituzaingó Norte</a></div>
             </div>
-
-        </footer>
+        
+          </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

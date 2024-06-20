@@ -1,34 +1,41 @@
-footer h2 {
-    width: 30%;
-    height: 30%;
-    margin-left: 38%;
-    margin-right: 35%;
-    margin-top: 40px;
-    color: #a446ac;
-    font-family: "Facu DEV", Arial, Helvetica, sans-serif;
-    font-size: 30px;
-  }
-  
-  .contenedorfoot {
+footer {
+    grid-area: footer;
+    background: linear-gradient(to right, white, #a446ac, white);
+
+    h2 {
+        width: 30%;
+        height: 30%;
+        margin-left: 38%;
+        margin-right: 35%;
+        margin-top: 40px;
+        color: white;
+        font-family: "Facu DEV", Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    div {
+
+        a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+        }
+
+        div img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+}
+
+.contenedorfoot {
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
-  }
-  
-  #youtubefoto {
+}
+
+#youtubefoto {
     width: 70px;
-  }
-  
-  footer div {
-    div img {
-      width: 50px;
-      height: 50px;
-    }
-  
-    a {
-      text-decoration: none;
-      color: #a446ac;
-      display: flex;
-    }
-  }
+}

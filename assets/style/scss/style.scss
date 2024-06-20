@@ -1,122 +1,23 @@
-@import "dondeEstamos";
-@import "noticias";
-@import "header";
-@import "mediaQuire";
 @import "nav";
+@import "mediaqueries";
+@import "main";
+@import "header";
 @import "footer";
+@import "article";
+@import "contacto";
+
 
 body {
     margin: 0;
     background-color: white;
     font-family: 'Facu DEV', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  main {
-    text-align: center;
-  
-    div {
-      position: relative;
-      width: 100%;
-    }
-  
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  
-  #vers1 {
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    color: #d4a0d8;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  
-  #vers2 {
-    position: absolute;
-    top: 75%;
-    left: 45%;
-    color: #d4a0d8;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  
-  #welcome {
-    font-size: 18px;
-    margin-top: 0px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #a446ac;
-  }
-  
-  main h2 {
-    font-size: 25px;
-    color: beige;
-  }
-  
-  .colorD {
-    color: rgb(30, 255, 0);
-    font-style: italic;
-  }
-  
-  article {
-    font-size: 25px;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: #a446ac;
-    text-align: center;
-  
-    div {
-      iframe {
-        border-radius: 15px;
-      }
-  
-      a {
-        text-decoration: none;
-        color: #a446ac;
-      }
-    }
-  }
-  
-  header {
-    grid-area: header;
-  }
-  
-  nav {
-    grid-area: nav;
-  }
-  
-  footer {
-    grid-area: footer;
-    background-color: whitesmoke;
-  }
-  
-  article {
-    grid-area: article;
-  }
-  
-  h1 {
-    grid-area: h1;
-  }
-  
-  iframe {
-    grid-area: iframe;
-  }
-  
-  p {
-    grid-area: p;
-  }
+}
 
-  .elemento {
-    // Estilos base del elemento
-    width: 300px;
-    height: 200px;
-    background-color: blue;
-    transition: transform 0.3s ease;
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
-  
+.titulos {
+    font-size: 70px;
+    color: #d4a0d8;
+}
+
+#calendar{
+    width: 25%;
+}

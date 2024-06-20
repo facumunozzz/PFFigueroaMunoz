@@ -6,18 +6,17 @@
     border-left: none;
     border-right: none;
     border-color: #a446ac;
-  }
-  
-  #logo {
+}
+
+#logo {
     width: 100px;
     height: 100px;
-  }
-  
-  .titulos {
-    font-size: 70px;
-    color: #d4a0d8;
-  }
-  
-  #header {
+}
+
+#header {
     background-color: #a446ac;
-  }
+}
+
+header {
+    grid-area: header;
+}

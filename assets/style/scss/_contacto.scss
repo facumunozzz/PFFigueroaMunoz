@@ -1,0 +1,28 @@
+.formgrid {
+    display: grid;
+    grid-template-areas: 
+    "div1 div2"
+    "div3 div4";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.div1 {
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+
+.div4 {
+    grid-area: div4;
+}
+
+#fondocontacto{
+    background: linear-gradient(to right, white, violet, yellow, white);
+}

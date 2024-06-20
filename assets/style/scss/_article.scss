@@ -1,0 +1,31 @@
+article {
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #a446ac;
+    text-align: center;
+    grid-area: article;
+
+    div {
+        iframe {
+            border-radius: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #a446ac;
+        }
+
+    }
+
+}
+
+.elemento {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
