@@ -4,7 +4,7 @@
         font-size: medium;
     }
 
-    #vers1 #vers2{
+    #vers1, #vers2{
         display: none;
     }
 
@@ -65,5 +65,13 @@
 
     #ACT{
         font-size: smaller;
+    }
+
+    article {
+        div {
+            a{
+                display: none;
+            }
+        }
     }
 }

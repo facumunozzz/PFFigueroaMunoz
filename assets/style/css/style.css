@@ -18,7 +18,7 @@ nav a {
     display: flex;
     font-size: medium;
   }
-  #vers1 #vers2 {
+  #vers1, #vers2 {
     display: none;
   }
   .contenedorfoot {
@@ -64,6 +64,9 @@ nav a {
   }
   #ACT {
     font-size: smaller;
+  }
+  article div a {
+    display: none;
   }
 }
 main {
@@ -220,6 +223,11 @@ article div a {
 
 #fondocontacto {
   background: linear-gradient(to right, white, violet, yellow, white);
+}
+
+#ima1, #ima2, #ima3, #ima4 {
+  width: 50%;
+  height: 50%;
 }
 
 body {
